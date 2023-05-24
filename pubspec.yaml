@@ -75,7 +75,7 @@ dependencies:
       ref: a54853c
   path_provider: ^2.0.15
   rrule: ^0.2.13
-  shimmer: ^2.0.0
+  shimmer: ^3.0.0
   syncfusion_flutter_calendar: ^21.2.4
 
   url_launcher: ^6.1.11
