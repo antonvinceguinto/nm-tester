@@ -1,0 +1,39 @@
+{
+	"data": [
+		{
+			"jobstatus_id": 35959,
+			"jobstatus_name": "In Progress",
+			"jobstatus_brush_colour_argb": "#A1E79D"
+		},
+		{
+			"jobstatus_id": 35960,
+			"jobstatus_name": "New",
+			"jobstatus_brush_colour_argb": "#FEF27A"
+		},
+		{
+			"jobstatus_id": 35962,
+			"jobstatus_name": "Waiting Materials",
+			"jobstatus_brush_colour_argb": "#9AC5F9"
+		},
+		{
+			"jobstatus_id": 35963,
+			"jobstatus_name": "Completed",
+			"jobstatus_brush_colour_argb": "#3C3C3C"
+		},
+		{
+			"jobstatus_id": 35965,
+			"jobstatus_name": "Ready to Invoice",
+			"jobstatus_brush_colour_argb": "#F2C34F"
+		},
+		{
+			"jobstatus_id": 62135,
+			"jobstatus_name": "On Hold",
+			"jobstatus_brush_colour_argb": "#ff6599"
+		},
+		{
+			"jobstatus_id": 62136,
+			"jobstatus_name": "Postponed",
+			"jobstatus_brush_colour_argb": "#d3d3d3"
+		}
+	]
+}

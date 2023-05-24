@@ -1,0 +1,10 @@
+appId: com.nextminute.app.nmanton
+---
+- launchApp
+- tapOn: Jobs
+- assertVisible: Jobs
+- tapOn: Filters
+- tapOn: Status
+- tapOn: In Progress
+- tapOn: New
+- tapOn: Apply

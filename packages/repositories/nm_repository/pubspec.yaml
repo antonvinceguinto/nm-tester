@@ -1,0 +1,19 @@
+name: nm_repository
+description: Dart package which manages the all nexminute endpoints.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=2.18.0 <3.3.10'
+
+dependencies:
+  api_service:
+    path: ../../services/api_service
+  dartz: ^0.10.1
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

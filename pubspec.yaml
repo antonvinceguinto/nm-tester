@@ -1,0 +1,125 @@
+name: nextminute
+description: An app automating job management in construction
+version: 1.0.0+11
+publish_to: none
+
+environment:
+  sdk: '>=2.18.0 <3.3.10'
+
+dependencies:
+  adaptive_dialog: ^1.8.2
+  api_service:
+    path: packages/services/api_service
+  authentication_repository:
+    path: packages/repositories/authentication_repository
+  auto_route: ^7.1.0
+
+  badges: ^3.1.1
+  bloc: ^8.1.1
+
+  cached_network_image: ^3.2.3
+  connectivity_plus: ^4.0.0
+  custom_info_window: ^1.0.1
+
+  dartz: ^0.10.1
+
+  dio_cache_interceptor: ^3.4.2
+  dio_cache_interceptor_hive_store: ^3.2.1
+
+  equatable: ^2.0.5
+
+  flow_builder: ^0.0.9
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_colorpicker: ^1.0.3
+  flutter_cupertino_datetime_picker: ^3.0.0
+  flutter_datetime_picker: ^1.5.1
+  flutter_displaymode: ^0.6.0
+
+  flutter_google_places: ^0.3.0
+
+  # flutter_localizations:
+  #   sdk: flutter
+
+  flutter_phoenix: ^1.1.1
+  flutter_spinkit: ^5.2.0
+
+  flutter_widget_from_html: ^0.10.0
+  font_awesome_flutter: ^10.4.0
+
+  geocoding: ^2.1.0
+  geolocator: ^9.0.2
+  google_fonts: ^4.0.4
+  google_maps_flutter: ^2.2.6
+
+  # hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  intl: ^0.18.0
+
+  map_launcher: ^2.5.0+1
+  modal_bottom_sheet: ^3.0.0-pre
+  # moment_dart: ^0.17.4 # last package we added before PUSH NOTIFS warning
+  # modal_bottom_sheet:
+  #   git:
+  #     url: https://github.com/jamesblasco/modal_bottom_sheet.git
+  #     ref: 42da8b0
+  #     path: modal_bottom_sheet
+  nm_repository:
+    path: packages/repositories/nm_repository
+  package_info_plus: ^4.0.0
+  passcode_screen:
+    git:
+      url: https://github.com/nm-anton/flutter-passcode.git
+      ref: a54853c
+  path_provider: ^2.0.15
+  rrule: ^0.2.13
+  shimmer: ^2.0.0
+  syncfusion_flutter_calendar: ^21.2.4
+
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  auto_route_generator: ^7.0.0
+  bloc_test: ^9.1.1
+  build_runner:
+
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_test:
+    sdk: flutter
+
+  hive_generator:
+
+  mocktail: ^0.3.0
+  # test: ^1.17.11
+  very_good_analysis: ^4.0.0+1
+
+  # Required for testing urlLauncher
+  plugin_platform_interface: ^2.1.3
+  url_launcher_platform_interface: ^2.1.1
+
+flutter_icons:
+  android: 'launcher_icon'
+  ios: true
+  remove_alpha_ios: true
+  image_path_android: 'assets/images/app_icon_android.png'
+  image_path_ios: 'assets/images/app_icon_ios.png'
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/images/logo/
+    - test/data/
+
+dependency_overrides:
+  # Temporary fix for 3.10.0
+  # macos_ui:
+  #   git:
+  #     url: https://github.com/Mayb3Nots/macos_ui.git
+  #     ref: dev

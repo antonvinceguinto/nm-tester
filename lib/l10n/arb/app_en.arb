@@ -1,0 +1,7 @@
+{
+	"@@locale": "en",
+	"loginAppBarTitle": "Nextminute",
+	"@counterLoginAppBarTitle": {
+		"description": "Text shown in the AppBar of the Main Page"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"@@locale": "es",
+	"loginAppBarTitle": "Nextminute",
+	"@counterLoginAppBarTitle": {
+		"description": "Texto mostrado en la AppBar de la página del contador"
+	}
+}

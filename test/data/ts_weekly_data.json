@@ -1,0 +1,196 @@
+{
+	"data": [
+		{
+			"id": 0,
+			"date": "2022-11-28T00:00:00",
+			"total_time_assigned": 420,
+			"total_buy_price": 350,
+			"state": 0,
+			"timesheet_entries": [
+				{
+					"billableitem_id": 49500791,
+					"task_number": "TASK-122",
+					"task_summary": "Task for Job Job100 - Plumbing Job/Gas repair",
+					"job_number": "JOB-104",
+					"job_name": "Plumbing Job/Gas repair",
+					"job_address": "1 Queen St\nAuckland",
+					"title": "Standard Hourly Rate",
+					"description": "Standard hourly rate.",
+					"time_total": 420,
+					"buy_price": 350,
+					"is_job_entry": false,
+					"is_billable": true,
+					"billableitem_ismanually_invoiced": false,
+					"billableitem_entry_type": "Time Range",
+					"billableitem_istime": true,
+					"billableitem_istime_range": false,
+					"billableitem_buy_subtotal": 350,
+					"billableitem_sell_subtotal": 595,
+					"billableitem_invoiced_total": 0,
+					"target_billableitem_summaries": [],
+					"start_time": "2022-11-27T12:00:00",
+					"end_time": "2022-11-27T19:00:00",
+					"client_contact_id": 41279686,
+					"client_contact_name": "Lois Lane"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"date": "2022-11-29T00:00:00",
+			"total_time_assigned": 480,
+			"total_buy_price": 400,
+			"state": 0,
+			"timesheet_entries": [
+				{
+					"billableitem_id": 49500790,
+					"task_number": "TASK-122",
+					"task_summary": "Task for Job Job100 - Plumbing Job/Gas repair",
+					"job_number": "JOB-104",
+					"job_name": "Plumbing Job/Gas repair",
+					"job_address": "1 Queen St\nAuckland",
+					"title": "Standard Hourly Rate",
+					"description": "Standard hourly rate.",
+					"time_total": 480,
+					"buy_price": 400,
+					"is_job_entry": false,
+					"is_billable": false,
+					"billableitem_ismanually_invoiced": false,
+					"billableitem_entry_type": "Duration",
+					"billableitem_istime": true,
+					"billableitem_istime_range": false,
+					"billableitem_buy_subtotal": 400,
+					"billableitem_sell_subtotal": 680,
+					"billableitem_invoiced_total": 0,
+					"target_billableitem_summaries": [],
+					"start_time": "2022-11-28T12:00:00",
+					"end_time": "2022-11-28T20:00:00",
+					"client_contact_id": 41279686,
+					"client_contact_name": "Lois Lane"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"date": "2022-11-30T00:00:00",
+			"total_time_assigned": 390,
+			"total_buy_price": 325,
+			"state": 0,
+			"timesheet_entries": [
+				{
+					"billableitem_id": 49500783,
+					"task_number": "TASK-120",
+					"task_summary": "Plumbing Maintenance",
+					"job_number": "JOB-104",
+					"job_name": "Plumbing Job/Gas repair",
+					"job_address": "1 Queen St\nAuckland",
+					"title": "Standard Hourly Rate",
+					"description": "Standard hourly rate.",
+					"time_total": 390,
+					"buy_price": 325,
+					"is_job_entry": false,
+					"is_billable": false,
+					"billableitem_ismanually_invoiced": false,
+					"billableitem_entry_type": "Duration",
+					"billableitem_istime": true,
+					"billableitem_istime_range": false,
+					"billableitem_buy_subtotal": 325,
+					"billableitem_sell_subtotal": 552.5,
+					"billableitem_invoiced_total": 0,
+					"target_billableitem_summaries": [],
+					"start_time": "2022-11-29T12:00:00",
+					"end_time": "2022-11-29T18:00:00",
+					"client_contact_id": 41279686,
+					"client_contact_name": "Lois Lane"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"date": "2022-12-01T00:00:00",
+			"total_time_assigned": 240,
+			"total_buy_price": 200,
+			"state": 0,
+			"timesheet_entries": [
+				{
+					"billableitem_id": 49500762,
+					"task_number": "TASK-111",
+					"task_summary": "Annual Leave",
+					"job_number": "JOB-100",
+					"job_name": "Internal Admin Job",
+					"job_address": null,
+					"title": "Standard Hourly Rate",
+					"description": "Standard hourly rate.",
+					"time_total": 240,
+					"buy_price": 200,
+					"is_job_entry": false,
+					"is_billable": false,
+					"billableitem_ismanually_invoiced": false,
+					"billableitem_entry_type": "Duration",
+					"billableitem_istime": true,
+					"billableitem_istime_range": false,
+					"billableitem_buy_subtotal": 200,
+					"billableitem_sell_subtotal": 340,
+					"billableitem_invoiced_total": 0,
+					"target_billableitem_summaries": [],
+					"start_time": "2022-11-30T12:00:00",
+					"end_time": "2022-11-30T16:00:00",
+					"client_contact_id": null,
+					"client_contact_name": null
+				}
+			]
+		},
+		{
+			"id": 0,
+			"date": "2022-12-02T00:00:00",
+			"total_time_assigned": 0,
+			"total_buy_price": 0,
+			"state": 0,
+			"timesheet_entries": []
+		},
+		{
+			"id": 0,
+			"date": "2022-12-03T00:00:00",
+			"total_time_assigned": 180,
+			"total_buy_price": 225,
+			"state": 0,
+			"timesheet_entries": [
+				{
+					"billableitem_id": 49500814,
+					"task_number": "TASK-130",
+					"task_summary": "Smiths Clean (Recurs weekly)",
+					"job_number": "JOB-107",
+					"job_name": "Cleaning Job/Recurring",
+					"job_address": "10  Roche Avenue\nChristchurch\nCanterbury\n8041\nNew Zealand",
+					"title": "Weekend Overtime Rate",
+					"description": null,
+					"time_total": 180,
+					"buy_price": 225,
+					"is_job_entry": false,
+					"is_billable": true,
+					"billableitem_ismanually_invoiced": false,
+					"billableitem_entry_type": "Duration",
+					"billableitem_istime": true,
+					"billableitem_istime_range": false,
+					"billableitem_buy_subtotal": 225,
+					"billableitem_sell_subtotal": 300,
+					"billableitem_invoiced_total": 0,
+					"target_billableitem_summaries": [],
+					"start_time": "2022-12-02T12:00:00",
+					"end_time": "2022-12-02T15:00:00",
+					"client_contact_id": 41279688,
+					"client_contact_name": "Clark Kent"
+				}
+			]
+		},
+		{
+			"id": 0,
+			"date": "2022-12-04T00:00:00",
+			"total_time_assigned": 0,
+			"total_buy_price": 0,
+			"state": 0,
+			"timesheet_entries": []
+		}
+	],
+	"timesheet_islocked": false
+}
